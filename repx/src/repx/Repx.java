@@ -68,6 +68,7 @@ public class Repx {
 		return content;
 		
 	}
+	// Hier musst du noch den inhalt der file übergeben, und das erstellte Pattern der Main Methode 
 	public static String regexMagic(String input, int pattern) {
 		Pattern p1 = Pattern.compile("u", Pattern.CASE_INSENSITIVE);
 		Matcher m1 = p1.matcher("Berufsschule"); 
